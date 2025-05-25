@@ -28,21 +28,39 @@ body
 
 .btn
 {
-    position: relative;
-    top: 100px;
-    left: 1100px;
+    position: fixed;
+    top: 350px;
+    left: 540px;
     cursor: pointer;
+    
     
 
 }
+
 .btn button
 {
-    border: none;
-    background-color:transparent;
+    border: 5px solid greenyellow;
+    border-radius: 20px;
+    background-color:rgb(255, 0, 0);
     font-size: 50px;
     position: fixed;
 
 }
+
+
+
+
+
+.btn button:active
+{
+   
+    background-color:rgb(10, 10, 190);
+  
+
+}
+
+
+
 
 .Box .b1
 {
