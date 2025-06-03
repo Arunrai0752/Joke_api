@@ -1,37 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jokes</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Joke Generator</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+  <div class="container">
+    <h1 class="title">😂 Random Joke Generator</h1>
 
-    <h1 class="title">The Programmable Joke Machine</h1>
-    <div class="Box">
-
-        <div class="b1">
-        <span id="setup"></span>
-        </div>
-
-        <div class="b2">
-
-        <span id="punchline"></span>
-        </div>
-
-
+    <div class="joke-box">
+      <div class="joke-part setup" id="setup">Press the button to get a joke!</div>
+      <div class="joke-part punchline" id="punchline"></div>
     </div>
 
+    <button class="joke-btn" onclick="getjokes()">Get Joke 🤖</button>
+  </div>
 
-
-    <div class="btn">
-    <button onclick="getjokes()"> &#x1F4A1;</button>
-
-    </div>
-
-
-    <script src="script.js"></script>
-    
+  <script src="script.js"></script>
 </body>
 </html>
